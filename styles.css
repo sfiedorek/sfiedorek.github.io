@@ -74,7 +74,7 @@ body {
 }
 #content table {
     margin: auto;
-    width: 80%
+    width: 60%;
 }
 #content table, th, td {
     border: 3px solid #92140C;
