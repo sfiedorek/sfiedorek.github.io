@@ -46,6 +46,9 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+#menu a:hover {
+    color: #7b7b7b;
+}
 #content {
     background-color: #FFFFFF;
     margin-left: 10%;
@@ -104,7 +107,7 @@ footer {
     font-family: Helvetica, Arial, sans-serif;
 }
 ul {
-    list-style-image: url("/images/stamp.svg")
+    list-style-image: url("stamp.svg")
 }
 a:hover {
     color: #7b7b7b;
@@ -129,16 +132,6 @@ blockquote {
 .ital {
     font-style: italic;
 }
-.stamp-pic {
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%
-}
-.stamp-desc {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%
-}
 .gif {
     width: 60%;
     margin-left: 20%;
@@ -149,5 +142,16 @@ figcaption {
 }
 .center {
     text-align: center;
-    font-size: 1.2em;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 220px 220px 220px 220px 220px 220px 220px 220px;
+    justify-content: center;
+}
+.stamp-pic {
+    height: 180px
+}
+.stamp-desc {
+    text-align: center;
 }
