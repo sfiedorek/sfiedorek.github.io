@@ -61,7 +61,7 @@ body {
     padding: 0 3% 0 3%;
     font-family: Times New Roman, Times, serif;
 }
-#content h3 {
+#content h2 {
     text-align: center;
     padding-top: 2%;
     font-family: Times New Roman, Times, serif;
@@ -123,6 +123,7 @@ blockquote {
 #sources {
     text-align: center;
     padding-top: 8%;
+    font-size: 0.8em;
 }
 .source {
     color: #767676;
@@ -161,4 +162,8 @@ figcaption {
 .list ol {
     display: inline-block;
     text-align: left;
+}
+ul {
+    margin-left: 12%;
+    margin-right: 12%;
 }
