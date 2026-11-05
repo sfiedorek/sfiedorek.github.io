@@ -122,7 +122,7 @@ blockquote {
 }
 #sources {
     text-align: center;
-    padding-top: 2%;
+    padding-top: 8%;
 }
 .source {
     color: #767676;
@@ -154,4 +154,11 @@ figcaption {
 }
 .stamp-desc {
     text-align: center;
+}
+.list {
+    text-align: center;  
+}
+.list ol {
+    display: inline-block;
+    text-align: left;
 }
