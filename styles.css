@@ -101,13 +101,21 @@ footer {
     font-family: Helvetica, Arial, sans-serif;
 }
 .pagenav a {
-    color: #e4e4e4
+    color: #e4e4e4;
 }
 .copyright {
     font-family: Helvetica, Arial, sans-serif;
 }
 ul {
-    list-style-image: url("stamp.svg")
+    list-style-image: url("stamp.svg");
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.hobby-list {
+    margin-left: 5%;
+}
+.nested-list {
+    margin-left: 0;
 }
 a:hover {
     color: #7b7b7b;
@@ -118,7 +126,7 @@ blockquote {
 }
 .note {
     vertical-align: super;
-    font-size: .5em
+    font-size: .5em;
 }
 #sources {
     text-align: center;
@@ -151,7 +159,7 @@ figcaption {
     justify-content: center;
 }
 .stamp-pic {
-    height: 180px
+    height: 180px;
 }
 .stamp-desc {
     text-align: center;
@@ -162,8 +170,4 @@ figcaption {
 .list ol {
     display: inline-block;
     text-align: left;
-}
-ul {
-    margin-left: 12%;
-    margin-right: 12%;
 }
